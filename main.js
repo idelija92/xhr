@@ -22,7 +22,7 @@ function getTableHeaders(obj) {
     });
 
     return `<tr>${tableHeaders}</tr>`;
-}
+};
 
 function writeToDocument(type) {
     var tableRows = [];

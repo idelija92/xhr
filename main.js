@@ -19,7 +19,7 @@ function getTableHeaders(obj) {
 
     Object.keys(obj).forEach(function(key) {
         tableHeaders.push(`<td>${key}</td>`);
-    })
+    });
 
     return `<tr>${tableHeaders}</tr>`;
 }
